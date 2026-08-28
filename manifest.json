@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ardfard.openrouter-credit",
+  "name": "OpenRouter Credit",
+  "version": "1.0.0",
+  "author": "ardfard",
+  "license": "MIT",
+  "description": "Show your OpenRouter credit balance in the bar, and rank OpenRouter models by value (context per dollar) and by raw price in the detail panel.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "OpenRouter Credit",
+    "description": "OpenRouter balance + model value ranking",
+    "category": "AI",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

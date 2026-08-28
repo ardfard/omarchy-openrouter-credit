@@ -1,0 +1,11 @@
+# Editor/OS noise
+.DS_Store
+*.swp
+*~
+
+# jj/git internals
+.jj/
+
+# Backups / working copies that must not ship
+*.with-icon
+*.bak
