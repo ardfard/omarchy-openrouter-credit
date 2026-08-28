@@ -23,6 +23,16 @@ cd omarchy-openrouter-credit
 runs `omarchy plugin validate`, rescans the plugin registry, and offers to add
 the widget to the right-hand bar section.
 
+## Remove
+
+```bash
+omarchy plugin disable io.github.ardfard.openrouter-credit
+omarchy plugin remove io.github.ardfard.openrouter-credit
+# or, if `plugin remove` is unavailable on your Omarchy version:
+rm -rf ~/.config/omarchy/plugins/io.github.ardfard.openrouter-credit
+omarchy shell shell rescanPlugins
+```
+
 Requires `curl` (fetching) and `wl-copy` (copy-model-id); both ship with Omarchy.
 
 ## API key
